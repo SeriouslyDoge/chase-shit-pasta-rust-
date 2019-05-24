@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BBB82CAE-B0EF-451D-946E-9C7F607DC14C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RustInternal</RootNamespace>
+    <AssemblyName>RustInternal</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rust\RustClient_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rust\RustClient_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Network">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Steamworks">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.Steamworks.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.System">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.System.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.UnityEngine">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Rust.Data">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rust\RustClient_Data\Managed\Rust.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rust\RustClient_Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rust\RustClient_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rust\RustClient_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rust\RustClient_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rust\RustClient_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rust\RustClient_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="Access.cs" />
+    <Compile Include="Aimbot.cs" />
+    <Compile Include="AnimalESP.cs" />
+    <Compile Include="Assets\Draws\Menu.cs" />
+    <Compile Include="Assets\Draws\Native\ColorFix.cs" />
+    <Compile Include="Assets\Draws\Native\Drawing.cs" />
+    <Compile Include="Assets\Other\FPSController.cs" />
+    <Compile Include="Attribute1.cs" />
+    <Compile Include="AutoFarm.cs" />
+    <Compile Include="boat.cs" />
+    <Compile Include="BoneESP.cs" />
+    <Compile Include="Bones.cs" />
+    <Compile Include="BoneUID.cs" />
+    <Compile Include="chinook.cs" />
+    <Compile Include="Class0.cs" />
+    <Compile Include="ConfusedByAttribute.cs" />
+    <Compile Include="Corpse.cs" />
+    <Compile Include="CupboardESP.cs" />
+    <Compile Include="DictionaryEx.cs" />
+    <Compile Include="doorhek.cs" />
+    <Compile Include="drink.cs" />
+    <Compile Include="DumbHook.cs" />
+    <Compile Include="EasterEgg.cs" />
+    <Compile Include="Entities.cs" />
+    <Compile Include="Enum0.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="FriendManager.cs" />
+    <Compile Include="HelicopterESP.cs" />
+    <Compile Include="Helpers.cs" />
+    <Compile Include="LootESP.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Misc.cs" />
+    <Compile Include="newhekxd.cs" />
+    <Compile Include="PlayerESP.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Radar.cs" />
+    <Compile Include="randomshit.cs" />
+    <Compile Include="Rendering.cs" />
+    <Compile Include="ResourceESP.cs" />
+    <Compile Include="revive.cs" />
+    <Compile Include="SilentCat.cs" />
+    <Compile Include="SilentCat11.cs" />
+    <Compile Include="SilentCat1111.cs" />
+    <Compile Include="SilentMelee.cs" />
+    <Compile Include="SilentMelee0.cs" />
+    <Compile Include="SilentMelee12.cs" />
+    <Compile Include="SilentMelee13.cs" />
+    <Compile Include="SilentMelee131.cs" />
+    <Compile Include="SilentMelee133.cs" />
+    <Compile Include="SilentMelee1334.cs" />
+    <Compile Include="SilentMelee14.cs" />
+    <Compile Include="SilentMelee15.cs" />
+    <Compile Include="SilentMelee16.cs" />
+    <Compile Include="storagehacks.cs" />
+    <Compile Include="Traps.cs" />
+    <Compile Include="untieshit.cs" />
+    <Compile Include="UpdateObjects.cs" />
+    <Compile Include="UpdateObjects1.cs" />
+    <Compile Include="WorldItemESP.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RustInternal", "RustInternal\RustInternal.csproj", "{BBB82CAE-B0EF-451D-946E-9C7F607DC14C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBB82CAE-B0EF-451D-946E-9C7F607DC14C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB82CAE-B0EF-451D-946E-9C7F607DC14C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB82CAE-B0EF-451D-946E-9C7F607DC14C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB82CAE-B0EF-451D-946E-9C7F607DC14C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
